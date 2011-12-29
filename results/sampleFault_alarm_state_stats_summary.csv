@@ -1,0 +1,15 @@
+"","AlarmText","AlarmPath","AlarmCount","DurationTotal","DurationModeAuto","DurationModeManual","DurationModeMDI","DurationExecutionReady","DurationExecutionActive","DurationExecutionStopped","DurationExecutionInterrupted","Intpd-Auto","Stopped-Auto","Ready-Auto","Active-Auto","Intpd-Manual","Stopped-Manual","Ready-Manual","Active-Manual","Intpd-MDI","Stopped-MDI","Ready-MDI","Active-MDI"
+"1","OVER TRAVEL","SAMPLE<Device>:base<Axes>:X<Linear>:Xtravel<POSITION>","1","1.92","0","1.92","0","1.92","0","0","0",0,0,0,0,0,0,2,0,0,0,0,0
+"2","OVER TRAVEL","SAMPLE<Device>:base<Axes>:Y<Linear>:Ytravel<POSITION>","1","1.92","0","1.92","0","1.92","0","0","0",0,0,0,0,0,0,2,0,0,0,0,0
+"3","CHUCK BARRIER","SAMPLE<Device>:controller<Controller>:path<Path>:path_system<SYSTEM>","50","613.8","5.04","608.76","0","605.73","0.05","3.03","4.99",4.92,0,0,0.08,0,4.7,604.3,0,0,0,0,0
+"4","SPINDLE MALFUNCTION 2","SAMPLE<Device>:base<Axes>:servo_cond<ACTUATOR>","30","1957.17","910.32","1046.85","0","0","0","1957.17","0",0.02,1173.89,0.07,0,0,782.98,0.04,0,0,0,0,0
+"5","OVERLOAD","SAMPLE<Device>:base<Axes>:servo_cond<ACTUATOR>","1","18.01","0","18.01","0","0","0","18.01","0",0,0,0,0,0,17.92,0.08,0,0,0,0,0
+"6","SPINDLE SAFE OPER. SYSTEM ALARM","SAMPLE<Device>:controller<Controller>:system_cond<SYSTEM>","30","1958.14","911.29","1046.85","0","0","0","1958.14","0",0.02,1174.86,0.1,0,0,782.98,0.04,0,0,0,0,0
+"7","SYSTEM ERROR","SAMPLE<Device>:controller<Controller>:system_cond<SYSTEM>","4","853.99","853.99","0","0","0","0","0","853.99",853.91,0,0,0,0,0,0.09,0,0,0,0,0
+"8","INCOMPLETE TOOL DATA","SAMPLE<Device>:controller<Controller>:system_cond<SYSTEM>","2","44.96","0","44.96","0","23.92","0","21.04","0",0,0,0,0,0,1.05,43.95,0,0,0,0,0
+"9","SAFE OPERATION SYSTEM ALARM","SAMPLE<Device>:controller<Controller>:system_cond<SYSTEM>","3","177.18","0","177.18","0","0","0","177.18","0",0,0,0,0,0,176.92,0.08,0,0,0,0,0
+"10","ILLEGAL CYCLE START","SAMPLE<Device>:controller<Controller>:system_cond<SYSTEM>","2","6.06","6.06","0","0","2.99","0","0","3.07",3,0,3,0,0,0,0,0,0,0,0,0
+"11","START PROCESS ILLEGAL","SAMPLE<Device>:controller<Controller>:path<Path>:motion_cond<MOTION_PROGRAM>","1","3.06","3.06","0","0","0","3.02","0.04","0",0,0,0,3,0,0,0,0,0,0,0,0
+"12","FINISH DEPTH OF CUT ZERO","SAMPLE<Device>:controller<Controller>:path<Path>:motion_cond<MOTION_PROGRAM>","1","24","24","0","0","0","17.06","0","6.94",0,0,0.03,17.06,6.91,0,0,0,0,0,0,0
+"13","RESTART IMPOSSIBLE","SAMPLE<Device>:controller<Controller>:path<Path>:motion_cond<MOTION_PROGRAM>","1","1.06","1.06","0","0","0","1.06","0","0",0,0,0,1,0,0,0,0,0,0,0,0
+"14","PROGRAM NO. NOT FOUND","SAMPLE<Device>:controller<Controller>:path<Path>:motion_cond<MOTION_PROGRAM>","2","7.96","7.96","0","0","0","7.96","0","0",0,0.01,0.09,7.9,0,0,0,0,0,0,0,0
